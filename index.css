@@ -1,13 +1,10 @@
+body {
+  overflow-x: hidden;
+}
+
 nav a {
 	font-family: Roboto Slabs;
 	color: #5f8dc2 !important;
-}
-
-#landing {
-	background: 
-	url("https://img.freepik.com/free-photo/top-view-desk-concept-with-laptop_23-2148236828.jpg?semt=ais_hybrid&w=740");
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 #landing img {
@@ -17,6 +14,15 @@ nav a {
 #landing h1, h2, h5, p {
 	font-family: Roboto Slabs;
 	
+}
+
+#landing {
+  background-image: 
+    linear-gradient(rgba(209, 204, 252, 0.8), rgba(209, 204, 252, 0.8)),
+    url('https://t4.ftcdn.net/jpg/02/67/52/49/360_F_267524919_wXbVQHR189pLVU06eQ85GGLnJMq2eJFR.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
  .card-img-top {
@@ -41,5 +47,7 @@ nav a {
  	font-family: Roboto Slabs;
  	color: #5f8dc2;
  }
+
+
 
  
